@@ -5,7 +5,7 @@ from google.cloud.firestore_v1.vector import Vector
 # Create a Firestore client
 db = firestore.client()
 
-# Reference to the 'users' collection
+# Reference to the 'users' collections
 collectionRef = db.collection(u'users')
 
 # Example document with vector embedding
